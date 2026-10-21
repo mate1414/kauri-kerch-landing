@@ -21,8 +21,7 @@
       <a class="brand" href="#home" aria-label="Каури-Керчь — главная">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 48 44" role="img">
-            <path d="M6 25 24 5l18 20-18-6L6 25Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-            <path d="M11 29c4-2 8-2 13 0s9 2 13 0M8 35c5-2 10-2 16 0s11 2 16 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            <img src="assets/backgrounds/logo.png" alt="">
           </svg>
         </span>
         <span class="brand-copy"><strong>КАУРИ-КЕРЧЬ</strong><small>МОРСКОЙ ТРАНСПОРТ</small></span>
@@ -56,7 +55,7 @@
     <section class="hero" id="home" aria-label="Основные услуги компании">
       <div class="hero-slides" aria-live="polite">
         <article class="hero-slide is-active" data-slide="0">
-          <img class="hero-slide__image" src="https://kauri-kerch.ru/images/index/revolution-slider/bg-slide-2.jpg" data-fallback="assets/hero-boat.jpg" alt="Морская акватория и береговая линия" fetchpriority="high">
+          <img class="hero-slide__image" src="assets/index/revolution-slider/bg-slide-2.jpg" data-fallback="assets/hero-boat.jpg" alt="Морская акватория и береговая линия" fetchpriority="high">
           <div class="hero-slide__shade"></div>
           <div class="container hero-slide__content">
             <p class="eyebrow eyebrow--light"><span></span> ООО «Каури-Керчь» · с 2010 года</p>
@@ -76,7 +75,7 @@
         </article>
 
         <article class="hero-slide" data-slide="1" aria-hidden="true">
-          <img class="hero-slide__image" src="https://kauri-kerch.ru/images/index/revolution-slider/bg-slide-4.jpg" data-fallback="assets/hydrojet.jpg" alt="Зачистка корпуса судна" loading="lazy">
+          <img class="hero-slide__image" src="assets/index/revolution-slider/bg-slide-4.jpg" data-fallback="assets/hydrojet.jpg" alt="Зачистка корпуса судна" loading="lazy">
           <div class="hero-slide__shade"></div>
           <div class="container hero-slide__content">
             <p class="eyebrow eyebrow--light"><span></span> Техническое обслуживание</p>
@@ -91,7 +90,7 @@
         </article>
 
         <article class="hero-slide" data-slide="2" aria-hidden="true">
-          <img class="hero-slide__image" src="https://kauri-kerch.ru/images/index/revolution-slider/bg-slide-1.jpg" data-fallback="assets/oberon.jpg" alt="Судно технологического флота" loading="lazy">
+          <img class="hero-slide__image" src="assets/index/revolution-slider/bg-slide-1.jpg" data-fallback="assets/oberon.jpg" alt="Судно технологического флота" loading="lazy">
           <div class="hero-slide__shade"></div>
           <div class="container hero-slide__content">
             <p class="eyebrow eyebrow--light"><span></span> Работы на воде</p>
@@ -106,7 +105,7 @@
         </article>
 
         <article class="hero-slide" data-slide="3" aria-hidden="true">
-          <img class="hero-slide__image" src="https://kauri-kerch.ru/images/index/revolution-slider/bg-slide-3.jpg" data-fallback="assets/sagmira.jpg" alt="Пассажирское судно на морской прогулке" loading="lazy">
+          <img class="hero-slide__image" src="assets/index/revolution-slider/bg-slide-3.jpg" data-fallback="assets/sagmira.jpg" alt="Пассажирское судно на морской прогулке" loading="lazy">
           <div class="hero-slide__shade"></div>
           <div class="container hero-slide__content">
             <p class="eyebrow eyebrow--light"><span></span> Азовское и Чёрное моря</p>
@@ -230,21 +229,38 @@
           <article class="service-card service-card--gallery">
             <div class="service-card__top"><span class="service-number">04</span><span class="service-mark" aria-hidden="true">↗</span></div>
             <h3>Спуск-подъем судов с помощью пневматических ролик-мешков</h3>
-            <div class="image-gallery image-gallery--diagram" data-gallery='["https://kauri-kerch.ru/images/services/roller-bag.png","https://kauri-kerch.ru/images/services/roller-bag1.png","https://kauri-kerch.ru/images/services/roller-bag2.png"]' data-fallback="assets/roller-diagram.jpg" data-alt="Схема подъёма судов с помощью ролик-мешков">
-              <img class="image-gallery__image" src="https://kauri-kerch.ru/images/services/roller-bag.png" data-fallback="assets/roller-diagram.jpg" alt="Схема подъёма судов с помощью ролик-мешков" loading="lazy">
+            <div class="image-gallery image-gallery--diagram" data-gallery='["assets/services/roller-bag.png","assets/services/roller-bag1.png","assets/services/roller-bag2.png"]' data-fallback="assets/roller-diagram.jpg" data-alt="Схема подъёма судов с помощью ролик-мешков">
+              <img class="image-gallery__image" src="assets/services/roller-bag.png" data-fallback="assets/roller-diagram.jpg" alt="Схема подъёма судов с помощью ролик-мешков" loading="lazy">
               <div class="gallery-controls"><button type="button" data-gallery-prev aria-label="Предыдущая иллюстрация">←</button><span class="gallery-counter">01 / 03</span><button type="button" data-gallery-next aria-label="Следующая иллюстрация">→</button></div>
             </div>
             <p>Услуги по подъему на сушу и спуску на воду судов на пневматических ролик-мешках. Пневматические ролик-мешки обеспечивают мягкую и гибкую поддержку корпуса судна, делая подъем или спуск на воду безопасным.</p>
           </article>
 
+
           <article class="service-card service-card--gallery" id="hydrocleaning">
-            <div class="service-card__top"><span class="service-number">05</span><span class="service-mark" aria-hidden="true">↗</span></div>
-            <h3>Зачистка корпуса судов с помощью гидроструйного аппарата высокого давления</h3>
-            <div class="video-frame">
-              <iframe src="https://vk.com/video_ext.php?oid=-223496264&amp;id=456239017&amp;hd=2" title="Видео: зачистка корпуса судна гидроструйным аппаратом" loading="lazy" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" allowfullscreen></iframe>
+            <div class="service-card__top">
+              <span class="service-number">05</span>
+              <span class="service-mark" aria-hidden="true">↗</span>
             </div>
-            <p>Гидроструйная очистка — это процесс удаления загрязнений, ржавчины, старой краски, коррозии и других поверхностных слоев с помощью высокоскоростного потока воды с добавлением абразива. Струя воды смешивается с абразивными частицами (часто песком). Этот метод обеспечивает более интенсивную очистку по сравнению с обычной механической шлифовкой или химической обработкой и позволяет создать идеально чистую поверхность, подготовленную для нанесения покрытий, краски, защитных покрытий. Тем самым улучшается адгезия и долговечность покрытий.</p>
+
+            <h3>Зачистка корпуса судов с помощью гидроструйного аппарата высокого давления</h3>
+
+            <div class="video-frame">
+              <video controls preload="metadata" playsinline>
+                <source src="assets/services/hydro-clean.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+              </video>
+            </div>
+
+            <p>
+              Гидроструйная очистка — это процесс удаления загрязнений, ржавчины,
+              старой краски, коррозии и других поверхностных слоев с помощью
+              высокоскоростного потока воды с добавлением абразива. Этот метод
+              обеспечивает интенсивную очистку и позволяет подготовить поверхность
+              для нанесения защитных покрытий.
+            </p>
           </article>
+
 
           <article class="service-card" id="service-charter">
             <div class="service-card__top"><span class="service-number">06</span><span class="service-mark" aria-hidden="true">↗</span></div>
@@ -295,8 +311,8 @@
             </div>
           </div>
           <div class="vessel__visual">
-            <div class="image-gallery" data-gallery='["https://kauri-kerch.ru/images/services/pelican-1.png","https://kauri-kerch.ru/images/services/pelican-2.png","https://kauri-kerch.ru/images/services/pelican-3.png","https://kauri-kerch.ru/images/services/pelican-4.png"]' data-fallback="assets/pelican.jpg" data-alt="Судно Пеликан">
-              <img class="image-gallery__image" src="https://kauri-kerch.ru/images/services/pelican-1.png" data-fallback="assets/pelican.jpg" alt="Судно Пеликан" loading="lazy">
+            <div class="image-gallery" data-gallery='["assets/services/pelican-1.png","assets/services/pelican-2.png","assets/services/pelican-3.png","assets/services/pelican-4.png"]' data-fallback="assets/pelican.jpg" data-alt="Судно Пеликан">
+              <img class="image-gallery__image" src="assets/services/pelican-1.png" data-fallback="assets/pelican.jpg" alt="Судно Пеликан" loading="lazy">
               <div class="gallery-controls"><button type="button" data-gallery-prev aria-label="Предыдущее фото судна Пеликан">←</button><span class="gallery-counter">01 / 04</span><button type="button" data-gallery-next aria-label="Следующее фото судна Пеликан">→</button></div>
             </div>
             <p class="vessel__caption">Технологический и пассажирский флот</p>
@@ -305,8 +321,8 @@
 
         <article class="vessel vessel--image-left" id="sagmira">
           <div class="vessel__visual">
-            <div class="image-gallery" data-gallery='["https://kauri-kerch.ru/images/services/sagmira.png","https://kauri-kerch.ru/images/services/sagmira-1.png","https://kauri-kerch.ru/images/services/sagmira-3.png","https://kauri-kerch.ru/images/services/sagmira-4-1.png"]' data-fallback="assets/sagmira.jpg" data-alt="Судно Сагмира">
-              <img class="image-gallery__image" src="https://kauri-kerch.ru/images/services/sagmira.png" data-fallback="assets/sagmira.jpg" alt="Судно Сагмира" loading="lazy">
+            <div class="image-gallery" data-gallery='["assets/services/sagmira.png","assets/services/sagmira-1.png","assets/services/sagmira-3.png","assets/services/sagmira-4-1.png"]' data-fallback="assets/sagmira.jpg" data-alt="Судно Сагмира">
+              <img class="image-gallery__image" src="assets/services/sagmira.png" data-fallback="assets/sagmira.jpg" alt="Судно Сагмира" loading="lazy">
               <div class="gallery-controls"><button type="button" data-gallery-prev aria-label="Предыдущее фото судна Сагмира">←</button><span class="gallery-counter">01 / 04</span><button type="button" data-gallery-next aria-label="Следующее фото судна Сагмира">→</button></div>
             </div>
             <p class="vessel__caption">Прогулки, морская рыбалка и отдых</p>
@@ -367,8 +383,8 @@
             </div>
           </div>
           <div class="vessel__visual">
-            <div class="image-gallery" data-gallery='["https://kauri-kerch.ru/images/services/oberon-1.png","https://kauri-kerch.ru/images/services/oberon-3.png","https://kauri-kerch.ru/images/services/oberon-6.png"]' data-fallback="assets/oberon.jpg" data-alt="Судно Оберон">
-              <img class="image-gallery__image" src="https://kauri-kerch.ru/images/services/oberon-1.png" data-fallback="assets/oberon.jpg" alt="Судно Оберон" loading="lazy">
+            <div class="image-gallery" data-gallery='["assets/services/oberon-1.png","assets/services/oberon-3.png","assets/services/oberon-6.png"]' data-fallback="assets/oberon.jpg" data-alt="Судно Оберон">
+              <img class="image-gallery__image" src="assets/services/oberon-1.png" data-fallback="assets/oberon.jpg" alt="Судно Оберон" loading="lazy">
               <div class="gallery-controls"><button type="button" data-gallery-prev aria-label="Предыдущее фото судна Оберон">←</button><span class="gallery-counter">01 / 03</span><button type="button" data-gallery-next aria-label="Следующее фото судна Оберон">→</button></div>
             </div>
             <p class="vessel__caption">Технологический флот для работ на воде</p>
@@ -377,8 +393,8 @@
 
         <article class="vessel vessel--image-left" id="quantum">
           <div class="vessel__visual">
-            <div class="image-gallery" data-gallery='["https://kauri-kerch.ru/images/services/quantum5.png","https://kauri-kerch.ru/images/services/quantum6.png","https://kauri-kerch.ru/images/services/quantum-3.png","https://kauri-kerch.ru/images/services/quantum-4.png"]' data-fallback="assets/quantum.jpg" data-alt="Судно Квантум">
-              <img class="image-gallery__image" src="https://kauri-kerch.ru/images/services/quantum5.png" data-fallback="assets/quantum.jpg" alt="Судно Квантум" loading="lazy">
+            <div class="image-gallery" data-gallery='["assets/services/quantum5.png","assets/services/quantum6.png","assets/services/quantum-3.png","assets/services/quantum-4.png"]' data-fallback="assets/quantum.jpg" data-alt="Судно Квантум">
+              <img class="image-gallery__image" src="assets/services/quantum5.png" data-fallback="assets/quantum.jpg" alt="Судно Квантум" loading="lazy">
               <div class="gallery-controls"><button type="button" data-gallery-prev aria-label="Предыдущее фото судна Квантум">←</button><span class="gallery-counter">01 / 04</span><button type="button" data-gallery-next aria-label="Следующее фото судна Квантум">→</button></div>
             </div>
             <p class="vessel__caption">Водолазный катер технологического флота</p>
@@ -424,39 +440,13 @@
           <div class="location-address">
             <span class="location-address__label">Наш адрес</span>
             <p>298313 Республика Крым,<br>г. Керчь, ул. Аршицевская Коса, д. 4А</p>
-            <a class="text-link" href="https://yandex.ru/maps/11464/kerch/?from=mapframe&ll=36.434212%2C45.267211&mode=usermaps&source=mapframe&um=constructor%3Ac5f5dac001206fe7c14442133563c3d8f3d7cb1087e9eaef3db7f158e26eb19b&utm_source=mapframe&z=15" target="_blank" rel="noopener">Открыть карту отдельно <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://2gis.ru/directions/tab/bus/points/|36.434231,45.266758?m=36.43604993820191,45.266701702905735%2F18&routeLink=true" target="_blank" rel="noopener">Открыть карту отдельно <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         
-        <script type="text/javascript" charset="utf-8" 
-								async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac5f5dac001206fe7c14442133563c3d8f3d7cb1087e9eaef3db7f158e26eb19b&amp;max_width=1100&amp;height=600&amp;lang=ru_RU&amp;scroll=false"></script>
-        <!-- <div class="map-shell">
-          <div id="leaflet-map" class="map-canvas" role="application" aria-label="Интерактивная карта расположения причала Каури-Керчь"></div>
-          <div class="map-caption"><span class="map-caption__dot"></span> ООО «Каури-Керчь» · причал № 233А</div>
-        </div> -->
-      </div>
-    </section>
-
-    <section>
-            
-      <div class="container">
-                  <div class="row">
-                      <div class="col-sm-12">
-                          
-                          <div class="headline style-3">
-                              
-                              <h2>Местоположение</h2>
-              <script type="text/javascript" charset="utf-8" 
-              async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac5f5dac001206fe7c14442133563c3d8f3d7cb1087e9eaef3db7f158e26eb19b&amp;max_width=1100&amp;height=600&amp;lang=ru_RU&amp;scroll=false"></script>                           
-            </div><!-- headline -->
-            
-                      </div><!-- col -->
-                  </div><!-- row -->
-              </div><!-- ontainer -->
-      
+        <iframe id="map_979062906" frameborder="0" width="100%" height="600px" src="https://makemap.2gis.ru/widget?data=eJw1j8tqw0AMRf9F3ZowLz_ibUJNAi1xN6UtWZhYaQbGlhmPoanxv1cZU63EvdLV0QzkW_TYVkgdBm9xhPJrhnAfEEp4xiZMHiGBwdOAPkSfbRvcwxdHX4-v1V587Otpp-su7CT3b7dt9cJLLY4Xb4dgqedhFi7kyHP7JFQhr4qV30Pf4g-UUvzXksD3CnOPp1aSE9k-xAQGtn0TIqjONkYbpWVi0o3KsjwtzrxvWw40Si7nBLpmONFoV4YZXBOgjMO5zjK5ZZDcpAm4hx3j0lwVItdSCakMAxJ1nJZyLD9Dzr3fEN1nVIOfcPkDKRdh9g" sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
 
     </section>
-    
 
   </main>
 
